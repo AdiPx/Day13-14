@@ -1,0 +1,31 @@
+.column img {
+    display: inside;
+    width: 200px;
+    
+}
+h1 {
+    font-family: 'Montserrat', sans-serif;
+    text-transform: uppercase;
+  }
+  .row {
+    margin-top: 12px;
+  }
+.column#caption {
+    position: relative;
+  }
+  .column#caption .text {
+      position: absolute;   
+      opacity: 0;
+      transition: all 0.8s ease;      
+  }
+  .column#caption .text h1 {    
+    -o-object-position: center;  
+      color: white;
+  }
+  .column#caption:hover .text {
+    opacity: 1;
+    
+  }
+  .column#caption:hover img {
+   overla: black;
+  }
